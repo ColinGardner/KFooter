@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://parlsa.sharepoint.com/teams/BusinessSystemsALM/SitePages/Home.aspx",
+      "customActions": {
+        "ee413f69-fcf9-466a-a9e6-ccc7622d9ff8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "branding": {
+      "pageUrl": "https://parlsa.sharepoint.com/teams/BusinessSystemsALM/SitePages/Home.aspx",
+      "customActions": {
+        "ee413f69-fcf9-466a-a9e6-ccc7622d9ff8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

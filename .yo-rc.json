@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "posa-spfx-appc-branding",
+    "libraryId": "2a6177cc-4c4c-4138-b08a-1c8878070436",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "posa-spfx-appc-branding",
+    "solutionShortDescription": "posa-spfx-appc-branding description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
